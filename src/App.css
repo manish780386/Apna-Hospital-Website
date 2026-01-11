@@ -1,0 +1,27 @@
+/* Full page layout */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f2f2f2;
+}
+
+/* Navbar area */
+.navbar-wrapper {
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+/* Main page content */
+.content-wrapper {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Footer area */
+.footer-wrapper {
+  background: white;
+  padding: 15px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}

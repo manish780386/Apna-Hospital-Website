@@ -1,0 +1,40 @@
+.appointment-container {
+  padding: 20px;
+}
+
+.appointment-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.appointment-table th,
+.appointment-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.appointment-table th {
+  background-color: #0077ff;
+  color: white;
+}
+
+.appointment-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.complete-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #28a745;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.complete-btn:hover {
+  background-color: #218838;
+}
